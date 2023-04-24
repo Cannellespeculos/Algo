@@ -1,4 +1,4 @@
-function deadpool(steps) {
+export function deadpool(steps) {
   let time = 0;
   let pv = 100;
   for (let i = 0; i < steps.length; i++) {
@@ -41,4 +41,3 @@ function deadpool(steps) {
   return min + "min_" + time + "sec_" + pv + "hp";
 }
 
-console.log(deadpool("SSSETSE_S_S_HETEETHT_"));
