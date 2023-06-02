@@ -3,7 +3,7 @@ import { deadpool } from "./js/deadpool.js";
 
 describe("calculer", () => {
     it("addition", () => {
-        expect(deadpool("H_E__TEST____")).toBe("15min_50sec_60hp")
+        expect(deadpool("_SHHS__SSST_TS_T__H___")).toBe("6min_30sec_95hp")
 
     })
 })
